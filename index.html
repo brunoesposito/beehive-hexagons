@@ -31,23 +31,23 @@
                 border-top: 25px solid #64C7CC;
             }
             
-            .listcontainer {
+            .beehive {
                 padding: 0;
             }
-            .listcontainer li {
+            .beehive li {
                 position: relative;
                 display: inline-block;
                 width: 75px;
                 height: 100px;
                 margin-top: 34px;
             }
-            .listcontainer li:nth-child(2n) {
+            .beehive li:nth-child(2n) {
                 margin: -70px -38px;
             }
-            .listcontainer li:last-child {
+            .beehive li:last-child {
                 margin: 0;
             }
-            .listcontainer li .content-hexagon {
+            .beehive li .content-hexagon {
                 position: fixed;
                 top: 100%;
                 left: 50%;
@@ -64,10 +64,10 @@
                 transform: translateX(-10%);
                 z-index: 9;
             }
-            .listcontainer li:hover .content-hexagon {
+            .beehive li:hover .content-hexagon {
                 opacity: 1;
             }
-            .listcontainer li:hover .content-hexagon:hover {
+            .beehive li:hover .content-hexagon:hover {
                 opacity: 0;
             }
         </style>
@@ -75,7 +75,7 @@
     <body>
     
         <div class="container">
-            <ul class="listcontainer">
+            <ul class="beehive">
                 <li>
                     <div class="hexagon"></div>
                     <div class="content-hexagon">
@@ -375,7 +375,7 @@
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script>
-            $('.listcontainer > li').mousemove( function(e) {
+            $('.beehive > li').mousemove( function(e) {
                 $('.content-hexagon', this).css({
                     left: e.pageX + 20, 
                     top: e.pageY + 20
