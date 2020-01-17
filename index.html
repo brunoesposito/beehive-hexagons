@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+            .hexagon {
+                position: relative;
+                background: #64C7CC;
+                width: 75px;
+                height: 40px;
+                margin: 30px 0;
+            }
+            .hexagon:before,
+            .hexagon:after {
+                content: "";
+                position: absolute;
+                border-left: 37.5px solid transparent;
+                border-right: 37.5px solid transparent;
+            }
+            .hexagon:before {
+                bottom: 100%;
+                border-bottom: 25px solid #64C7CC;
+            }
+            .hexagon:after {
+                top: 100%;
+                border-top: 25px solid #64C7CC;
+            }
+            
+            .listcontainer {
+                padding: 0;
+            }
+            .listcontainer li {
+                position: relative;
+                display: inline-block;
+                width: 75px;
+                height: 100px;
+                margin-top: 34px;
+            }
+            .listcontainer li:nth-child(2n) {
+                margin: -70px -38px;
+            }
+            .listcontainer li:last-child {
+                margin: 0;
+            }
+            .listcontainer li .content-hexagon {
+                position: fixed;
+                top: 100%;
+                left: 50%;
+                right: 0;
+                width: 220px;
+                padding: 2px 0;
+                background-color: #000;
+                background-color: rgba(0, 0, 0, 0.65);
+                color: #fff;
+                opacity: 0;
+                transition: opacity .2s ease-in-out;
+                text-align: center;
+                font-size: 14px;
+                transform: translateX(-10%);
+                z-index: 9;
+            }
+            .listcontainer li:hover .content-hexagon {
+                opacity: 1;
+            }
+            .listcontainer li:hover .content-hexagon:hover {
+                opacity: 0;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="container">
+            <ul class="listcontainer">
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+                <li>
+                    <div class="hexagon"></div>
+                    <div class="content-hexagon">
+                        <b>Exteriors:</b><br>
+                        Minimal Wear, Battle Scarred<br><br>&nbsp;
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            $('.listcontainer > li').mousemove( function(e) {
+                $('.content-hexagon', this).css({
+                    left: e.pageX + 20, 
+                    top: e.pageY + 20
+                });
+            });
+        </script>
+
+    </body>
+</html>
